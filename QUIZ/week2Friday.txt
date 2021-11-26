@@ -1,0 +1,74 @@
+AJUNA MICHAEL 
+WEEK 2 QUIZ ANSWERS
+
+1. True
+
+2. True
+
+3. Combination of two strings or variables
+
+4. def function():
+
+5. 256
+
+6. %
+
+7. [] 
+
+8. None of the above
+
+9. listed_name = ['ajuna', 'mikael']
+
+    for i in range(10):
+        for name in listed_name:
+            print(name)
+
+
+10. None of the above
+
+11. SyntaxError
+
+12. for i in range(1,16):
+        print(i)
+
+13. if 5 < 2:
+        print(True)
+    else:
+        print(False)
+
+14. print([-4])
+
+15. i = 0
+    while i<=10:
+        if i % 2 == 0:
+            print(i)
+        i += 1
+
+16. if x > y:
+
+17. greek = {'alpha':'alfa', 'beta':'betta', 'gamma':'gamma', 'delta':'delta'}
+    for key, value in greek.items():
+        print(value)
+
+18. for i in range(10):
+
+19. None of the above
+
+20. phone = {
+        "John": "555-155-5550",
+        "Mary": "555-125-5255",
+        "Bob": "555-515-5115",
+        "Jane": "555-500-5125"
+    }
+
+    for name, number in phone.items():
+        print(name, number)
+
+21. add()
+
+22. clear(), copy(), get(), items(), update()
+
+23. for i in range(1,10,2):
+        print(i)
+
+24. for loop iterates over a sequence of items while a while loop iterates over a condition
