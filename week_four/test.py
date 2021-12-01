@@ -31,31 +31,3 @@ bubbleSort(data)
 
 print('Sorted Array in Ascending Order:')
 print(data)
-
-# WITH THE WHILE LOOP
-def bubbleSort3(arr):
-    '''Using while and for loops
-    Best Case ==> O(n) Iterates arr once if sorted
-    Worst Case ==> 0(n^2)
-    '''
-    swap = True
-    iterations = 0
-    comparisons = 0
-    while swap:
-        print(f"Bubble sort {iterations} iterations: {arr}")
-        comparisons += 1
-        swap = False
-        for num in range(len(arr) - 1):
-            comparisons += 1
-            if arr[num] > arr[num + 1]:
-                # swap elements
-                swap = True
-                arr[num], arr[num + 1] = arr[num + 1], arr[num]
-        iterations += 1
-
-data = [-2, 33, 0, 11, -9]
-
-bubbleSort3(data)
-
-print('Sorted Array in Ascending Order:')
-print(data)
