@@ -1,0 +1,126 @@
+
+CIT PRE EXAM
+AJUNA MICHAEL
+
+1. C
+    x = "Hello Wolrd" print(x)
+
+2. B
+    NO
+
+3. C
+    List
+
+4. B
+    print "I love to take a ride in his sport's car!"
+
+5. A
+    Int
+
+6. C
+    **
+
+7. E
+    An exception is thrown
+
+8. E
+    my_list_2 = (1,13,2)
+
+9. D
+    All of the above
+
+10. C
+    print word.count('A')
+
+11. E
+    92.0 => float
+
+12. B
+    NameError
+
+13. B
+    print([1])
+
+14. A and C
+    The variable name has been spelled wrong
+    If statements end in a colon, not semicolon
+
+15. A
+    It creates a list of integers name "I"
+
+16. D
+    40
+
+17. D
+    3 to 18
+
+18. A
+    120
+
+19. A
+    List
+
+20. A and D
+    int('5')/10.0
+    '5' + "5"
+
+21. B
+    Median()
+
+22. A
+    getkeys
+
+23. 
+
+24. D
+    All of these
+
+25. C
+    tuples
+
+26. A
+    Dictionary
+
+27. D
+    ''' That's Okay """
+
+28. B
+    85.0
+
+29. D
+    7
+
+30. A
+    Correct
+
+31. D
+    Parentheses
+
+32. D
+    Class
+
+33. D
+    None
+
+34. C
+    3
+
+35. 
+
+36.
+
+37.
+i = 0
+while i <= 15:
+    if i % 2 != 0:
+        print(i)
+    i += 1
+
+38. C
+    Class
+
+39. B
+    Len
+
+40. B
+    f = open("File.txt", "w")
