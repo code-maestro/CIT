@@ -20,7 +20,6 @@ print(a != 5 or b == 6)
 print(a < 2 or b > 7)
 print(a < b or 9 > 8)
 
-
 if a > b:
     print("True")
 elif a == b:
@@ -66,10 +65,10 @@ else:
     
 
     if ("Winter" not in tup1 and "Winters" in tup1) or ("Jack" in tup1):
-    print("True")
-elif ("Summer" in tup1) or ("Summers" in tup1):
-    print("True statement")
-else:
-    print("False")
+        print("True")
+    elif ("Summer" in tup1) or ("Summers" in tup1):
+        print("True statement")
+    else:
+        print("False")
 
 # https://1drv.ms/p/s!AgYEaoh811UQgRKVGGu0vyw8_HRN?e=xe3CF9
