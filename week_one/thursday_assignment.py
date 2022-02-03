@@ -1,48 +1,48 @@
-# """
+"""
 
-# MICHAEL AJUNA'S ASSIGNMENT
+MICHAEL AJUNA'S ASSIGNMENT
 
-# Mbarara, Uganda
+Mbarara, Uganda
 
-# """
+"""
 
 
-# # FUNCTION TO PRINT NAMES AND NUMBERS
-# import random
+# FUNCTION TO PRINT NAMES AND NUMBERS
+import random
 
-# def printNamesAndNumbers():
-#     numbers = random.randint(1,20)
-#     names = "mikael" + "ajuna"
-#     return str(numbers) + "\t" + str(numbers) +"\n" + names
+def printNamesAndNumbers():
+    numbers = random.randint(1,20)
+    names = "mikael" + "ajuna"
+    return str(numbers) + "\t" + str(numbers) +"\n" + names
 
-# print(printNamesAndNumbers())
+print(printNamesAndNumbers())
 
-# # VARIABLE THAT TAKES ONLY 3 LETTERS OUT OF THE STRING
-# name = "mikael"
-# print(name[2:-1])
+# VARIABLE THAT TAKES ONLY 3 LETTERS OUT OF THE STRING
+name = "mikael"
+print(name[2:-1])
 
-# # FUNCTION WITH INPUT TO PRINT THE STRING
-# def printName(string):
-#     print(string)
+# FUNCTION WITH INPUT TO PRINT THE STRING
+def printName(string):
+    print(string)
 
-# printName(input("Enter Your Name : "))
+printName(input("Enter Your Name : "))
 
-# # FUNCTION TO COMPARE 2 NUMBERS WITH IF STATEMENT
-# def compareNumbers(num1, num2):
-#     if num1 < num2:
-#         return str(num1)  + " is less than " + str(num2)
+# FUNCTION TO COMPARE 2 NUMBERS WITH IF STATEMENT
+def compareNumbers(num1, num2):
+    if num1 < num2:
+        return str(num1)  + " is less than " + str(num2)
 
-# print(compareNumbers(10, 20))
+print(compareNumbers(10, 20))
 
-# number = 36//6
+number = 36//6
 
-# print(str(number))
+print(str(number))
 
-# def func():
-# 	number = 23
-# 	return(print(str(number)))
+def func():
+	number = 23
+	return(print(str(number)))
 
-# func()
+func()
 
 def daysFunction():
 	days = "Friday" + "\t" + "Saturday" + "\t" + "Sunday"
