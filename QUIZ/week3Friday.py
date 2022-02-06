@@ -1,4 +1,4 @@
 
 # for loop odd numbers
-for i in range(1,10,2):
+for i in range(1,30,2):
     print(i)

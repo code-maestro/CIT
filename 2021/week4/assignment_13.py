@@ -52,7 +52,6 @@ print(selectionSort(arr))
 
 
 #Question three
-
 first = ["Black","Yellow","Red"]
 second = ["Harrier","Toyota","Corona"]
 final = []

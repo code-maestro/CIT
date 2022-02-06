@@ -8,7 +8,7 @@
 # 1.Create a list that prints two values in the list together.
 drivers = ['HAM', 'MAX', 'VALTERI', 'CHECO', 'CHARLES', 'MICK', 'SEB']
 
-print(drivers[1] + ' \t ' + drivers[4])
+print(drivers[1] + ' & ' + drivers[6])
 
 
 # 2.Create a 4 dimensional list that prints out seat 130.
@@ -26,7 +26,7 @@ print(seats[3][0])
 import random
 
 def my_function(randomString):
-    random_number = random.randint(100, 200)
+    random_number = random.randint(10, 100)
     return print(str(random_number) + randomString)
 
 my_function(' is a random number')
