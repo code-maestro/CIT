@@ -13,7 +13,7 @@ def fun():
 fun()
 
 # 2.Create a nesting dictionary
-dictionary = {
+dict = {
     "name": "Michael",
     "age": "21",
     "address": {
@@ -21,6 +21,8 @@ dictionary = {
         "city": "Kampala"
     }
 }
+
+print(dict)
 
 # 3.Create a whileloop that prints only odd numbers
 x = 0

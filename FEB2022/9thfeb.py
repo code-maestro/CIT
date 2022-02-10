@@ -1,19 +1,19 @@
 # MICHAEL AJUNA 9TH FEBUARY 2022 ASSIGNMENT
 
-# 1.Create a function using the else and elif statement to get your output.
-def fun():
-    number = input("Enter a number: ")
-    if int(number) % 2 == 0:
-        print("The number is even")
-    elif int(number) % 2 == 1:
-        print("The number is odd")
-    else:
-        print("The number is not a number")
+# # 1.Create a function using the else and elif statement to get your output.
+# def fun():
+#     number = input("Enter a number: ")
+#     if int(number) % 2 == 0:
+#         print("The number is even")
+#     elif int(number) % 2 == 1:
+#         print("The number is odd")
+#     else:
+#         print("The number is not a number")
 
-fun()
+# fun()
 
 # 2.Create a nesting dictionary
-dictionary = {
+dict = {
     "name": "Michael",
     "age": "21",
     "address": {
@@ -22,9 +22,15 @@ dictionary = {
     }
 }
 
+print(dict)
+for keys, values in dict.items():
+    print(keys, values)
+
+    
 # 3.Create a whileloop that prints only odd numbers
+import random
 x = 0
-while x < 15:
+while x < random.randint(0, 20):
     if x % 2 != 0:
         print(x)
     x += 1
